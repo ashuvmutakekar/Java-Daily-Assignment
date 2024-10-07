@@ -47,24 +47,24 @@ public class LibraryTester_H {
 				Integer q =sc.nextInt();
 				Library l = new Library(title, bt, pr, pd1, auth, q);
 				lib.put(title, l);
-				boolean x=false;
-			Collection<Library>titles=lib.values();
-			for(Library a:titles) {
-					if(a.getTitle().equals(title)){
-						System.out.println("Duplicate");
-						x=true;
-						break;
-					}
-				}
-				if(x==false)
-				{
-				lib.put(title, l);
-			 	System.out.println("added");
-				}
-				else
-				{
-					break;
-				}
+//				boolean x=false;
+//				Collection<Library>titles=lib.values();
+//				for(Library a:titles) {
+//					if(a.getTitle().equals(title)){
+//						System.out.println("Duplicate");
+//						x=true;
+//						break;
+//					}
+//				}
+//				if(x==false)
+//				{
+//				lib.put(title, l);
+//			 	System.out.println("added");
+//				}
+//				else
+//				{
+//					break;
+//				}
 			}
 			break;
 			case 2:{
